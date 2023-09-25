@@ -13,7 +13,7 @@ ch1_title=os.environ.get('CH1_TITLE','🍿 All Movies Uploaded Here 🍿')
 ch2_title=os.environ.get('CH2_TITLE',"🔞 Sunny Leone XXX Video's 🔞")
 
 
-BOT_TOKEN=os.environ.get('BOT_TOKEN','5631379160:AAEHUFFqtf3grBojpmFwmJaXwzNd2nop9s4')
+BOT_TOKEN=os.environ.get('BOT_TOKEN','5631379160:AAGn9MAJ4Xh_RgEuJcW06a95pW_BzlL8tUg')
 
 API_ID = 16514976
 API_HASH = '40bd8634b3836468bb2fb7eafe39d81a'
