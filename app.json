@@ -1,0 +1,29 @@
+{
+  "name": "Akash bot",
+  "description": "Your application description goes here.",
+  "repository": "https://github.com/crazebotz/akashbot",
+  "keywords": ["c", "bot", "z"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "required": true
+    },
+    "USERNAME": {
+      "description": "Your bot's username",
+      "required": false
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
