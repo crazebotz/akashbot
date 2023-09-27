@@ -2,9 +2,9 @@ import pymongo
 from pymongo.errors import DuplicateKeyError
 import os 
 # ------------Database----------
-#DB_URL = "mongodb+srv://admin:admin@myusers.jw5vph4.mongodb.net/?retryWrites=true&w=majority"
+DB_URL = "mongodb+srv://admin:admin@myusers.jw5vph4.mongodb.net/?retryWrites=true&w=majority"
 
-DB_URL=os.environ.get("DB_URL")
+# DB_URL=os.environ.get("DB_URL")
 myclient = pymongo.MongoClient(DB_URL)
 mydb = myclient["myusers"]
 mycol = mydb["users"]
